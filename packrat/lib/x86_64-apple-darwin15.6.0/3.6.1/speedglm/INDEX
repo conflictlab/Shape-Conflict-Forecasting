@@ -1,0 +1,14 @@
+add1.speedlm            Wrappers to the add1 and drop1 methods for
+                        speedlm and speedglm objects
+control                 Miscellanea of functions
+data1                   A toy dataset
+predict.speedglm        Predict method for a speedglm object
+predict.speedlm         Predict method for a speedlm object
+speedglm                Fitting Generalized Linear Models for Large
+                        Data Sets
+speedglm-package        Fitting Linear and Generalized Linear Models to
+                        Large Data Sets
+speedlm                 Fitting Linear Models to Large Data Sets
+summary.speedglm        Methods to summarize Generalized Linear Models
+                        fits
+summary.speedlm         Methods to summarize Linear Models fits

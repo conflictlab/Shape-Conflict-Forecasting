@@ -1,0 +1,81 @@
+ArrayData               ArrayData class
+ChunkedArray            ChunkedArray class
+Codec                   Compression Codec class
+CsvReadOptions          File reader options
+CsvTableReader          Arrow CSV and JSON table reader classes
+DataType                class arrow::DataType
+Dataset                 Multi-file datasets
+DictionaryType          class DictionaryType
+Expression              Arrow expressions
+FeatherReader           FeatherReader class
+Field                   Field class
+FileFormat              Dataset file formats
+FileInfo                FileSystem entry info
+FileSelector            file selector
+FileSystem              FileSystem classes
+FileWriteOptions        Format-specific write options
+FixedWidthType          class arrow::FixedWidthType
+FragmentScanOptions     Format-specific scan options
+InputStream             InputStream classes
+Message                 class arrow::Message
+MessageReader           class arrow::MessageReader
+OutputStream            OutputStream classes
+ParquetArrowReaderProperties
+                        ParquetArrowReaderProperties class
+ParquetFileReader       ParquetFileReader class
+ParquetFileWriter       ParquetFileWriter class
+ParquetWriterProperties
+                        ParquetWriterProperties class
+Partitioning            Define Partitioning for a Dataset
+RecordBatch             RecordBatch class
+RecordBatchReader       RecordBatchReader classes
+RecordBatchWriter       RecordBatchWriter classes
+Scalar                  Arrow scalars
+Scanner                 Scan the contents of a dataset
+Schema                  Schema class
+Table                   Table class
+array                   Arrow Arrays
+arrow_available         Is the C++ Arrow library available?
+arrow_info              Report information on the package's
+                        capabilities
+buffer                  Buffer class
+call_function           Call an Arrow compute function
+codec_is_available      Check whether a compression codec is available
+compression             Compressed stream classes
+copy_files              Copy files between FileSystems
+cpu_count               Manage the global CPU thread pool in libarrow
+data-type               Apache Arrow data types
+dataset_factory         Create a DatasetFactory
+dictionary              Create a dictionary type
+flight_connect          Connect to a Flight server
+flight_get              Get data from a Flight server
+flight_put              Send data to a Flight server
+hive_partition          Construct Hive partitioning
+install_arrow           Install or upgrade the Arrow library
+install_pyarrow         Install pyarrow for use with reticulate
+list_compute_functions
+                        List available Arrow C++ compute functions
+list_flights            See available resources on a Flight server
+load_flight_server      Load a Python Flight server
+map_batches             Apply a function to a stream of RecordBatches
+match_arrow             'match' and '%in%' for Arrow objects
+mmap_create             Create a new read/write memory mapped file of a
+                        given size
+mmap_open               Open a memory mapped file
+open_dataset            Open a multi-file dataset
+read_arrow              Read Arrow IPC stream format
+read_delim_arrow        Read a CSV or other delimited file with Arrow
+read_feather            Read a Feather file
+read_json_arrow         Read a JSON file
+read_message            Read a Message from a stream
+read_parquet            Read a Parquet file
+read_schema             read a Schema from a stream
+s3_bucket               Connect to an AWS S3 bucket
+type                    infer the arrow Array type from an R vector
+unify_schemas           Combine and harmonize schemas
+value_counts            'table' for Arrow objects
+write_arrow             Write Arrow IPC stream format
+write_dataset           Write a dataset
+write_feather           Write data in the Feather format
+write_parquet           Write Parquet file to disk
+write_to_raw            Write Arrow data to a raw vector
